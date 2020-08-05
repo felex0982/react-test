@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  max-width: 1000px;
+  margin: 50px auto 0;
+}
+
+.App-title {
+  font-family: "St Marie";
+  font-size: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px;
+  margin: 0;
+
+  &__main {
+    line-height: 2.5rem; //account for top-whitespace of St Marie Font
+  }
+
+  &__subtitle {
+    font-family: "Open Sans Light";
+    letter-spacing: 0.7em;
+    font-size: 2rem;
+    line-height: 4.5rem;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
